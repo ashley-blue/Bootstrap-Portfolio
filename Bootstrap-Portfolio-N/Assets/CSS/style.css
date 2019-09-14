@@ -1,0 +1,91 @@
+#about-image {
+    /* Positioning */
+    float: left;
+  
+    /* Box-model */
+    width: 250px;
+    margin: 0 20px 10px 0;
+  }
+.block {
+    padding: 30px;
+    margin-bottom: 30px;
+}
+.block-header {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-weight: bold;
+  }
+
+#logo {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+main {
+    width: 960px;
+    height: 800px;
+    /* margin-right: 50%; */
+ /* display: flex; */
+    margin-top: 30px;
+    background-color:  wheat;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: rgb(216, 174, 95);
+    border-top-width: 5px;
+    border: solid;
+    color: rgb(216, 174, 95);
+    padding-bottom: 260px;
+    margin-bottom: 30px;
+}
+.submit-btn {
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: lighter;
+    border: 0;
+  }
+img {
+    width: 250px;
+    height: 300px;
+    float: left;
+    margin-top: 5px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.lajolla {
+    width: 290px;
+    height: 250px;
+    padding: 10px;
+    float: left;
+}
+.santamonica {
+    height: 250px;
+    width: 290px;
+    padding: 10px;
+    float: left;
+}
+.redrock {
+    height: 250px;
+    width: 290px;
+    padding: 10px;
+    /* float: right; */
+}
+button {
+    background-color: wheat;
+}
+footer {
+    text-align: center;
+    border: solid;
+    border-top-width: 5px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-color: rgb(216, 174, 95);
+    background-color: wheat;
+    width: 100%;
+    padding: 30px 0;
+    clear: both;
+    font-size: 12px;
+    text-align: center;
+    border-top: 8px;
+    position: absolute;
+    bottom: 0;
+    height: 60px;
+}
